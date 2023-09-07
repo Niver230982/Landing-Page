@@ -6,15 +6,22 @@
 
 nav{
     display: flex;
-    justify-content: center;
     align-items: center;
-    background-color: #131415;
+    
+    background-color: #2cbaf6;
     padding: 1rem;
+    
+}
+
+body{
+background-color: white;
 }
 
 ul a {
     color:white;
     text-decoration: none;
+   text-align: center;
+    
 }
 
 ul{
