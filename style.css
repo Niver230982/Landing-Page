@@ -6,10 +6,10 @@
 
 nav{
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    
     background-color: #2cbaf6;
-    padding: 1rem;
+    padding: rem;
     
 }
 
@@ -19,8 +19,9 @@ background-color: white;
 
 ul a {
     color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
-   text-align: center;
+    text-align: center;
     
 }
 
@@ -29,3 +30,47 @@ ul{
     display: flex;
     gap: 100px;
 }
+
+#portada{
+    display: flex;
+    justify-content: space-around;
+   
+    background-color: rgb(229, 226, 226);
+
+}
+.card_info{
+    display: flex;
+    background-color: white;
+    width: 1200px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+      
+}
+
+#productos_servicios{
+    display: flex;
+    justify-content: space-around;   
+    background-color: rgb(229, 226, 226);
+
+}
+
+.card_prod_servicios{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 1200px;
+    height: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
