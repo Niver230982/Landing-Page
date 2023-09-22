@@ -124,7 +124,36 @@ main{
     margin-right: 50px;
     font-size: 25px;
     color: white;
-    
 
 }
 
+.card-beneficios{
+    display: flex;
+    flex-direction: row;
+}
+.beneficios-mensaje{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+.benrficios-parrafo{
+    padding-top: 20px;
+}
+.card1{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    max-width: 400px;
+    padding-top: 100px;
+    padding-left: 200px;
+}
+
+.card2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 400px;
+    padding-top: 100px;
+    padding-left: 200px;
+}
